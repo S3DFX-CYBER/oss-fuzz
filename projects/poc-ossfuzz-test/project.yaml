@@ -1,0 +1,8 @@
+homepage: "https://github.com/google/oss-fuzz"
+main_repo: "https://github.com/google/oss-fuzz --format=json -gcp-project-id=INJECTED_BY_SAVIO"
+language: c++
+primary_contact: test@example.com
+fuzzing_engines:
+  - libfuzzer
+sanitizers:
+  - address
